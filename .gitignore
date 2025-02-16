@@ -1,0 +1,28 @@
+# Ignorar ambientes virtuais
+.venv/
+env/
+venv/
+
+# Ignorar arquivos gerados pelo Poetry
+poetry.lock
+
+# Ignorar arquivos temporários e de cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar arquivos de configuração do Python e do VSCode
+.python-version
+.vscode/
+
+# Ignorar arquivos de logs e saída temporária
+*.log
+*.tmp
+*.swp
+.DS_Store
+
+# Ignorar dependências e arquivos do sistema
+.idea/
+*.bak
+Thumbs.db

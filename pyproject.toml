@@ -1,0 +1,17 @@
+[project]
+name = "aulas-01-05"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Andre L Batsista",email = "andrebatista210@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "flake8 (>=7.1.2,<8.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
